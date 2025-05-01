@@ -14,7 +14,6 @@ public class musicUI {
         musicService service = new musicServiceImpl(new musicDaoImpl());
 
         while (true) {
-            System.out.println("\n--- Music Album Management ---");
             System.out.println("1. Add Album");
             System.out.println("2. List All Albums");
             System.out.println("3. Search by Title");
